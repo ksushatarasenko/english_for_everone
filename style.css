@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+.container{
+    display: grid;
+    grid-template-columns: 80% 15%;
+    gap: 5%;
+}
+hr{
+    margin-top: 10%;
+}
+
+/* ======== IMAGE ======== */
+.image img{
+    width: 100%;
+}
+
+/* ======== AUDIO ========== */
+.audios{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    gap: 2%;
+    
+}
+
+.audio2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3%;
+}
+.audio iframe{
+    width: 280px;
+    height: 50px;
+}
+.audio span{
+    font-size: 18px;
+}
+/* ========= TWO ========= */
+.two{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.two img{
+    width: 100%;
+}
