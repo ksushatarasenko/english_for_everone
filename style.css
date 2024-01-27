@@ -58,3 +58,29 @@ hr{
     font-size: 16px;
     margin-top: 5%;
 }
+/*  ==== LIST ========= */
+ a{
+    font-size: 24px;
+    text-decoration: none;
+    color: rgb(1, 64, 43);
+}
+.list li{
+    list-style-type: none;
+}
+.hr{
+    margin: 1%;
+}
+.blue a, .blue{
+    color: blue;
+    margin-top: 2%;
+}
+.green, .green a{
+    color: green;
+    margin-top: 2%;
+
+}
+.orange, .orange a{
+    color: orange;
+    margin-top: 2%;
+
+}
